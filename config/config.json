@@ -1,0 +1,31 @@
+{
+   "PORT": 8080,
+   "HOSTNAME": "127.0.0.1",
+
+   "dictionary": {
+      "enabled": "compiled_10.json",
+      "available": [
+         "compiled_630k.json", 
+         "fiveLetters_46k.json", 
+         "compiled_6k.json", 
+         "wordle_2k.json",
+         "compiled_10.json"
+      ]
+   },
+   "engines": {
+      "enabled": "v0",
+      "available": ["v0"],
+      "mode": "plain"
+   },
+
+   "wordLength": 5,
+   "maxGuesses": 6,
+
+
+   "showPastGuesses": false,
+   "showReg": true,
+   "showDictionaryReduction": true,
+   "showRemainingDictionary": false,
+   "showRemainingDictionaryLength": false,
+   "showTargetWordLetterCount": false
+}

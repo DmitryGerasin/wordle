@@ -1,0 +1,38 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "Fucking sick-ass algorithm to wreck anyone who dares to stand up against in in the game of wordle",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "jest",
+    "update-meta": "node ./tools/updateDictionaryMetadata.js",
+    "sim": "node ./wordleSimulator/runSimulation.js",
+    "bench": "node ./benchmarking/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryGerasin/wordle.git"
+  },
+  "keywords": [
+    "wordle",
+    "dictionary",
+    "weighted_dictionary"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryGerasin/wordle/issues"
+  },
+  "homepage": "https://github.com/DmitryGerasin/wordle#readme",
+  "dependencies": {
+    "cli-confirm": "^1.0.1",
+    "cli-progress": "^3.11.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
